@@ -1,0 +1,19 @@
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+@keyframes animate {
+  0% { transform: scale(0.3); }
+  100% { transform: scale(1); }
+}
+.animate-overlay {
+  width: 30px;
+  height: 30px;
+  background: radial-gradient(circle, red, rgba(255, 0, 0, 0));
+  border: 1px solid red;
+  border-radius: 50%;
+  animation: 1s animate infinite;
+}

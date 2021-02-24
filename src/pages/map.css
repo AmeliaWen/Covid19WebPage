@@ -1,0 +1,44 @@
+
+
+.header{
+  width: 100%;
+  position: relative;
+  background: url("/img/jcdsj_logo.png") no-repeat center center;
+  height: 42px;
+  line-height: 42px;
+}
+.bkg{
+  height: 100%;
+
+  background-image: url("/img/data08.png");
+
+  width: 100%;
+  background-size: cover;
+  overflow: hidden;
+  position: absolute;
+  z-index: 0;
+}
+.fonth{
+  font-family: -apple-system;
+  font-size: xx-large;
+  color: #f7f7f7;
+  margin-left: 500px;
+}
+.left{
+  width: 350px;
+  height: 100%;
+  position: absolute;
+}
+.mid{
+  left: 425px;
+  position: absolute;
+  height: 100%;
+  width: 600px;
+  z-index: 1;
+}
+.right{
+  left: 1050px;
+  width: 400px;
+  height: 100%;
+  position: absolute;
+}
